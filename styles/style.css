@@ -1,0 +1,133 @@
+@import url('http://fonts.cdnfonts.com/css/d-din?styles=37957');
+@import url('http://fonts.cdnfonts.com/css/d-din');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'D-DIN', sans-serif;
+    height: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero {
+    background: url('../images/spaceXRocket.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+}
+
+/* NAVBAR */
+
+.navbar {
+    height: 100px;
+    padding: 0 50px;
+}
+
+.nav-list {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list li {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.nav-list a {
+    text-decoration: underline 1px rgba(0, 0, 0, 0);
+    text-underline-offset: 0.4em;
+    transition: 0.3s;
+}
+
+.nav-list a:hover {
+    text-decoration-color: rgb(255, 255, 255);
+}
+
+.spacex-logo {
+    width: 210px;
+    margin-bottom: 10px;
+}
+
+.burger {
+    width: 20px;
+    cursor: pointer;
+}
+
+/* LEARN MORE SECTION */
+
+.learn-more {
+    width: 350px;
+    margin: 150px 0 0 50px
+}
+
+.learn-more h2 {
+    font-size: 3em;
+    margin-bottom: 30px;
+    line-height: 98%;
+}
+
+.learn-more a {
+    border: 2px solid white;
+    font-weight: bold;
+    padding: 20px;
+    width: 130px;
+    text-align: center;
+    display: block;
+    transition: 0.5s;
+}
+
+.learn-more a:hover {
+    background-color: white;
+    color: black;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: black;
+    height: 15vh;
+}
+
+.footer nav {
+    height: 100%;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.footer-menu li {
+    font-size: 12px;
+    margin: 0 20px;
+}
+
+.footer-menu a {
+    transition: 0.3s;
+}
+
+.footer-menu a:hover {
+    color: #979797;
+}
+
+.footer-menu span {
+    color: #979797;
+    font-weight: 400;
+}
